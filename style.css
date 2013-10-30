@@ -1,0 +1,442 @@
+@charset "UTF-8";
+body{
+	background-color:#ff5a00;
+}
+div{
+	/*border:1px black solid;*/
+}
+#content {
+	padding: 0px;
+	height: auto;
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+}
+#cuerpo{
+	padding: 0px;
+	height: 768px;
+	width: 1024px;
+	margin:0px;
+	background-image:url(img/fondo.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#cabecera{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:1024px;
+	height:167px;
+}
+#logo{
+	width:300px;
+	height:167px;
+	background-image:url(img/logo.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	float:left;
+	cursor:pointer;
+}
+#botonera{
+	width:724px;
+	height:167px;
+	padding-top:69px;
+	float:left;
+	font-size:0.9em;
+	position:relative;
+	z-index:101;
+}
+
+.boton{
+	float:left;
+}
+#centro{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:1024px;
+	height:auto;
+}
+#cuerpoizq{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:250px;
+	height:auto;
+}
+#cuerpocenter{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:575px;
+	height:auto;
+	padding-top:15px;
+}
+#cuerpocenter_home{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/cuerpo.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+#cuerpocenter_lowcost{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/lowcost.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+#cuerpocenter_sala{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/sala.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+#cuerpocenter_clases{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/clases.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+#cuerpocenter_inscripcion{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/inscripcion.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+#cuerpocenter_contacto{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:585px;
+	height:474px;
+	background-image:url(img/contacto.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+#texto_lowcost{
+	padding:20px;
+	margin:0px;
+	position:absolute;
+	width:300px;
+	left:238px;
+	top:0px;
+	text-align:justify;
+	z-index:99;
+}
+#texto_sala{
+	margin:0px;
+	width:340px;
+	height:460px;
+	overflow:auto;
+	left:0px;
+	top:0px;
+	font-size:0.8em;
+	margin-left:15px;
+	margin-top:10px;
+	position:absolute;
+	z-index:99;
+}
+#texto_clases{
+	margin:0px;
+	width:340px;
+	height:460px;
+	overflow:auto;
+	left:0px;
+	top:0px;
+	font-size:0.8em;
+	margin-left:15px;
+	margin-top:10px;
+	color:#58585a;
+	position:absolute;
+	z-index:99;
+}
+#texto_inscripcion{
+	padding:20px;
+	margin:0px;
+	position:relative;
+	width:300px;
+	left:238px;
+	top:-10px;
+	text-align:justify;
+	position:absolute;
+	z-index:99;
+}
+#texto_contacto{
+	margin:0px;
+	width:300px;
+	height:260px;
+	left:0px;
+	top:0px;
+	font-size:0.85em;
+	margin-left:15px;
+	margin-top:10px;
+	position:absolute;
+	z-index:99;
+}
+
+#texto_sala li{
+	font-size:1.1em;
+}
+#texto_sala span.titulo{
+	color:#e85422;
+	font-size:2.3em;
+	display:block;
+	width:340px;
+	border-bottom:1px #e85422 solid;
+}
+#texto_clases span.titulo{
+	color:#e85422;
+	font-size:2.3em;
+	display:block;
+	width:280px;
+	border-bottom:1px #e85422 solid;
+}
+#texto_contacto span.titulo{
+	color:#e85422;
+	font-size:2.3em;
+	display:block;
+	width:270px;
+	border-bottom:1px #e85422 solid;
+}
+span.v1{
+	display:block;
+	color:#58585a;
+	padding-left:10px;
+}
+span.titulo{
+	color:#e85422;
+	font-size:1.8em;
+}
+p.tp{
+	font-size:0.90em;
+}
+#frasecenter{
+	float:left;
+	width:585px;
+	text-align:left;
+	position:relative;
+	background-image:url(img/texto_abajo.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:27px;
+}
+#flash{
+	position:absolute;
+	width:300px;
+	height:300px;
+	right:-250px;
+	top:-580px;
+	z-index:100;
+}
+#cuerpoder{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:187px;
+	_width:160px;
+	height:auto;
+}
+#cuerpoizq_1{
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:0px;
+	margin:0px;
+	float:left;
+	width:219px;
+	color:#FFF;
+	font-size:1.1em;
+	text-align:center;
+}
+#cuerpoizq_2{
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:0px;
+	margin:0px;
+	float:left;
+	width:219px;
+	color:#FFF;
+	text-align:center;
+}
+#cuerpoizq_3{
+	padding-left:15px;
+	padding-top:15px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px;
+	float:left;
+	width:219px;
+	color:#FFF;
+	text-align:right;
+	background-image:url(img/open.png);
+	background-repeat:no-repeat;
+	background-position: 80px top;
+	height:120px;
+}
+.boton span.bizq{
+	display:block;
+	float:left;
+	background-image:url(img/btn_izq.jpg);
+	background-repeat:no-repeat;
+	width:4px;
+	height:27px;
+}
+.boton span.bder{
+	display:block;
+	float:left;
+	background-image:url(img/btn_der.jpg);
+	background-repeat:no-repeat;
+	width:5px;
+	height:27px;
+}
+.boton a{
+	
+	text-decoration:none;
+	display:block;
+	float:left;
+	height:27px;
+	padding:15px;
+	padding-top:3px;
+	color:#666565;
+	
+}
+.boton a.activo{
+	background-image:url(img/caja_btn.jpg);
+	background-repeat:repeat-x;
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	float:left;
+	height:27px;
+	padding:15px;
+	padding-top:3px;
+}
+.boton a:hover{
+	text-decoration:underline;
+}
+#cuadro{
+	height:474px;
+	float:left;
+}
+#intro{
+	margin-left:auto;
+	margin-right:auto;
+	width:550px;
+	height:400px;
+}
+a.mailto{
+	text-decoration:underline;
+	color:#000;
+}
+table.taibol{
+	font-size:0.9em;
+}
+input{
+	border:1px solid #ff5a00;
+	font-weight:bold;
+	background-image:url(img/fondo_input.gif);
+	background-repeat:repeat-x;
+}
+input:hover{
+	border:1px #0000FF solid;
+}
+input:focus{
+	border:1px #0000FF solid;
+}
+#mapa{
+	height:580px;
+	left:290px;
+	position:absolute;
+	top:17px;
+	z-index:99;
+}
+#cuerpoder_1{
+	float:left;
+	height:160px;
+	width:187px;
+	_width:160px;
+}
+#cuerpoder_2{
+	float:left;
+	height:120px;
+	width:190px;
+	background-image:url(img/tu_fitness.png);
+	background-repeat:no-repeat;
+	background-position:9px 40px;
+	_width:160px;
+}
+#cuerpoder_3{
+	float:left;
+	height:161px;
+	width:203px;
+	background-image:url(img/parking.png);
+	background-repeat:no-repeat;
+	background-position:20px 0px;
+	_width:160px;
+}
+#abajo{
+	font-weight:bold;
+	padding-top:5px;
+	text-align:center;
+	font-size:0.7em;
+}
+.popup{
+	position:absolute;
+	width:400px;
+	left:50%;
+	margin-left:-200px;
+	padding:15px;
+	padding-bottom:28px;
+	border:3px #FFF solid;
+	background-color:#102497;
+	z-index:999999;
+	top:200px;
+	color:#FFF;
+	float:left;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+	-ms-border-radius: 6px; /* IE 8.*/
+}
+#cierre{
+	display:block;
+	width:100%;
+	position:relative;
+	top:-10px;
+	float:left;
+	text-align:right;
+	color:#FFF;
+	cursor:pointer;
+}
+#popupTXT{
+	font-size:1.1em;
+	display:block;
+	width:100%;
+	float:left;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
