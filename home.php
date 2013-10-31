@@ -41,7 +41,8 @@ function popu(txt)
     	<div id="cabecera">
         	<div id="logo" onclick="parent.location.href='index.php'"></div>
             <div id="botonera">
-            	<div class="boton"><?php if(!@$_GET['p']){ ?><span class="bizq"></span><a class="activo" href="index.php">HOME</a><span class="bder"></span><?php } else{ ?> <span class=""></span><a href="home.php">HOME</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'lowcost'){ ?> <span class="bizq"></span><a class="activo" href="?p=lowcost">LOW COST</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=lowcost">LOW COST</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'salas'){ ?> <span class="bizq"></span><a class="activo" href="?p=salas">SALAS Y HORARIOS</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=salas">SALAS Y HORARIOS</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a class="activo" href="?p=clases">CLASES COLECTIVAS</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=clases">CLASES COLECTIVAS</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'contacto'){ ?> <span class="bizq"></span><a class="activo" href="?p=contacto">CONTACTO</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=contacto">CONTACTO</a><span class=""></span><?php }?></div>
+            	<div class="boton"><?php if(!@$_GET['p']){ ?><span class="bizq"></span><a class="activo" href="index.php">HOME</a><span class="bder"></span><?php } else{ ?> <span class=""></span><a href="home.php">HOME</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'lowcost'){ ?> <span class="bizq"></span><a class="activo" href="?p=lowcost">LOW COST</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=lowcost">LOW COST</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'salas'){ ?> <span class="bizq"></span><a class="activo" href="?p=salas">SALAS Y HORARIOS</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=salas">SALAS Y HORARIOS</a><span class=""></span><?php }?></div><div
+class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a class="activo" href="?p=clases">CLASES COLECTIVAS</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=clases">CLASES COLECTIVAS</a><span class=""></span><?php }?></div><div class="boton"><?php if(@$_GET['p'] == 'contacto'){ ?> <span class="bizq"></span><a class="activo" href="?p=contacto">CONTACTO</a><span class="bder"></span><?php }else { ?><span class=""></span><a href="?p=contacto">CONTACTO</a><span class=""></span><?php }?></div>
             </div>
         </div>
         <div id="centro">
@@ -154,5 +155,19 @@ Leganés, Madrid
      <span id="popupTXT"></span>
 </div>
 <iframe allowtransparency="0" frameborder="0" width="0" height="0" id="oculto" name="oculto"></iframe>
+
+<div>
+Me cago en to
+</div>
+<script src="./plugins/ImageSlider/ImageSlider.js" type="text/javascript" ></script>
+
+<script type="text/javascript" >
+   ImageSlider.init(
+            {
+               container: "slider1",
+               timeout: 4
+            }   
+      );
+</script>
 </body>
 </html>
