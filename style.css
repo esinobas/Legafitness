@@ -82,10 +82,39 @@ div{
 	float:left;
 	width:585px;
 	height:474px;
-	background-image:url(img/cuerpo.png);
-	background-repeat:no-repeat;
+	/*background-image:url(img/cuerpo.png);
+	background-repeat:no-repeat;*/
 	position:relative;
+	
+	background-color: white;
 }
+
+#cuerpocenter_cuerpo1{
+   float: left;
+   height: 442px;
+   width: 227px;
+   margin-left: 11px;
+   margin-top: 16px;
+   
+   background-color: rosybrown;
+}
+
+#cuerpocenter_cuerpo2 ,#cuerpocenter_cuerpo3{
+   float: left;
+   width: 325px;
+   height: 220px;
+    
+   margin-left: 11px;
+   background-color: royalblue;
+}
+#cuerpocenter_cuerpo2{
+   margin-top: 16px;
+}
+#cuerpocenter_cuerpo3{
+   margin-top: 2px;
+}
+
+
 #cuerpocenter_lowcost{
 	padding:0px;
 	margin:0px;
