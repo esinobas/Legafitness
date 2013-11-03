@@ -184,18 +184,38 @@ div{
 	text-align:justify;
 	z-index:99;
 }
+
+#cuerpocenter_sala_slider1{
+   
+   width: 200px;
+   height: 138px;
+   margin-top: 10px;
+   margin-left: 15px;
+   float: left;
+}
+#cuerpocenter_sala_slider2{
+   
+   width: 200px;
+   height: 302px;
+   margin-top: 20px;
+   margin-left: 15px;
+   float: left;
+}
+
 #texto_sala{
 	margin:0px;
 	width:340px;
 	height:460px;
-	overflow:auto;
-	left:0px;
-	top:0px;
+	/*overflow:auto;
+	/*left:0px;
+	top:0px;*/
 	font-size:0.8em;
 	margin-left:15px;
 	margin-top:10px;
-	position:absolute;
-	z-index:99;
+	/*position:absolute;*/
+	/*z-index:99;*/
+	
+	float: left;
 }
 #horarios_sala{
 	margin:0px;
