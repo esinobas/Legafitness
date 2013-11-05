@@ -191,9 +191,6 @@ Leganés, Madrid
 </div>
 <iframe allowtransparency="0" frameborder="0" width="0" height="0" id="oculto" name="oculto"></iframe>
 
-<div>
-Me cago en to
-</div>
 
 </body>
 </html>
