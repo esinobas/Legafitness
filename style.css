@@ -293,8 +293,9 @@ span.v1{
 	padding-left:10px;
 }
 span.titulo{
+   text-align: left;
 	color:#e85422;
-	font-size:1.8em;
+	font-size:1.6em;
 	
 }
 p.tp{

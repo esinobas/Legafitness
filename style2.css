@@ -148,7 +148,7 @@ div{
 	margin:0px;
 	float:left;
 	width:585px;
-	height:900px;
+	height:820px;
 	
 	position:relative;
 	background-color:#FFF;
@@ -232,16 +232,18 @@ div{
 }
 #texto_clases{
 	margin:0px;
-	width:540px;
-	height:1100px;
-	left:0px;
-	top:0px;
+	width:340px;
+	height:470px;
+	/*left:0px;
+	top:0px;*/
 	font-size:0.8em;
 	margin-left:15px;
 	margin-top:10px;
 	color:#58585a;
-	position:absolute;
-	z-index:99;
+	/*position:absolute;*/
+	/*z-index:99;*/
+	float: left;
+	
 }
 #texto_inscripcion{
 	padding:20px;
@@ -297,8 +299,9 @@ span.v1{
 	padding-left:10px;
 }
 span.titulo{
+   text-align: left;
 	color:#e85422;
-	font-size:1.8em;
+	font-size:1.4em;
 }
 p.tp{
 	font-size:0.95em;
@@ -508,4 +511,26 @@ input:focus{
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+#clases_slider_image{
+  width: 210px;
+  height: 442px;
+  background-color: blanchedalmond;
+  float: left;
+  margin-left: 5px;
+  margin-top: 15px;
+
+}
+
+#reglamento_uso{
+background-color:#DFDFDF;
+padding:10px;
+margin: 20px;
+width:535px;
+float: left;
+font-size:0.8em;
+margin-left:15px;
+margin-top:10px;
+color:#58585a;
+
+}
 
