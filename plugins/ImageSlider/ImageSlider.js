@@ -19,7 +19,7 @@
  
    var ImageSlider = {
     
-    enableDebug: true,
+    enableDebug: false,
     debugSetup: {
                   file: "ImageSlider.js"
                                               

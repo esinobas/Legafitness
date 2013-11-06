@@ -311,11 +311,13 @@ p.tp{
 	background-position:center center;
 	height:27px;
 }
-#flash{
+#precio{
 	position:absolute;
-	width:300px;
-	height:300px;
-	right:-250px;
+	/*width:300px;
+	height:300px;*/
+	max-width: 275px;
+	min-height: 268px;
+   right:-250px;
 	top:-580px;
 	z-index:100;
 }

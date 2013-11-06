@@ -324,6 +324,16 @@ p.tp{
 	top:-580px;
 	z-index:100;
 }
+#precio{
+	position:absolute;
+	/*width:300px;
+	height:300px;*/
+	max-width: 275px;
+	min-height: 268px;
+   right:-250px;
+	top:-580px;
+	z-index:100;
+}
 #cuerpoder{
 	padding:0px;
 	margin:0px;
