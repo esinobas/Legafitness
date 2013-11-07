@@ -138,15 +138,26 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
 					
 				?>
             	</div>
+            	<img id="precio" src="./img/precio/Precio.png" alt="" >
+                 
+                 <script type="text/javascript" >
+                    BlowupObject.init({
+                       object:"precio",
+                       finishSize:{ 
+                                   finishWidth:"240px",
+                                   finishHeight:"233px"                             
+                             },
+                       time: 1,
+                       returnToOriginalSize: false,
+                       repeat: true    
+                    }
+                   );
+                 </script>
               <div id="frasecenter">
                  
 
                  
-                 <img id="precio" src="./img/precio/Precio.png" alt="" >
                  
-                 <script type="text/javascript" >
-                    BlowupObject.init({object:"precio"});
-                 </script>
               </div>
             </div>
             <div id="cuerpoder">
