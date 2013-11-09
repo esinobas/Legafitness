@@ -47,7 +47,8 @@
            );
         </script>
      </div>
-     <br />
+     <br>
+     <br>
         <div id="reglamento_uso">
         <b>Reglamento de uso:</b>
         
@@ -90,4 +91,9 @@
     
 </div>
 <div id="cuerpocenter_clases_borde_bottom"></div>
-<div style="text-align:center"><img src="img/tu_fitness.jpg" /></div>
+<div style="text-align:center"><img src="img/tu_fitness.jpg" />
+</div>
+<div style="text-align:center;margin-top:15px">
+<img src="img/precio/Precio.png" width="210">
+</div>
+

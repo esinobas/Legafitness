@@ -148,8 +148,7 @@ div{
 	margin:0px;
 	float:left;
 	width:585px;
-	height:820px;
-	
+	height:900px;
 	position:relative;
 	background-color:#FFF;
 }
@@ -543,7 +542,7 @@ width:535px;
 float: left;
 font-size:0.8em;
 margin-left:15px;
-margin-top:10px;
+margin-top:40px;
 color:#58585a;
 
 }
