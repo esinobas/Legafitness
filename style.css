@@ -96,7 +96,6 @@ div{
    margin-left: 11px;
    margin-top: 16px;
    
-   background-color: rosybrown;
 }
 
 #cuerpocenter_cuerpo2 ,#cuerpocenter_cuerpo3{
@@ -105,7 +104,7 @@ div{
    height: 220px;
     
    margin-left: 11px;
-   background-color: royalblue;
+   
 }
 #cuerpocenter_cuerpo2{
    margin-top: 16px;
@@ -133,7 +132,7 @@ div{
    margin-left: 11px;
    margin-top: 16px;
    
-   background-color: rosybrown;
+  
 }
 #cuerpocenter_lowcost_cuerpo2{
    float: left;
@@ -142,7 +141,6 @@ div{
     
    margin-left: 11px;
    margin-top: 2px;
-   background-color: royalblue;
 }
 
 #texto_lowcost{
@@ -204,7 +202,7 @@ div{
 }
 
 #cuerpocenter_sala_slider1{
-   background-color: blueviolet;
+   
    width: 200px;
    height: 138px;
    top: 100px;
@@ -223,7 +221,7 @@ div{
 	margin-top:10px;
 	/*position:absolute;*/
 	/*z-index:99;*/
-	background-color: pink;
+	
 }
 #texto_clases{
 	margin:0px;
@@ -364,9 +362,9 @@ p.tp{
 	width:219px;
 	color:#FFF;
 	text-align:right;
-	background-image:url(img/open.png);
+	/*background-image:url(img/open_new.png);
 	background-repeat:no-repeat;
-	background-position: 80px top;
+	background-position: 80px top;*/
 	height:120px;
 }
 .boton span.bizq{

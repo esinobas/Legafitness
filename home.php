@@ -53,14 +53,14 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
                 	
                 </div>            
                 <div id="cuerpoizq_2">
-                	
-                    <p>
+                	  <img src="img/open_new.png">
+                    <!-- <p>
                     	<b>¡Libertad de horarios!</b><br />
                         Lun. a Vie.: 7.30 /23.00<br />
                         Sab.: 8.30 /21.00<br />
                         Dom. Fes.: 9.00 /15.00<br />
                     
-                    </p>
+                    </p>-->
                 </div>
                 <div id="cuerpoizq_3"></div>
             </div>
@@ -153,12 +153,15 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
                     }
                    );
                  </script>
-              <div id="frasecenter">
-                 
-
-                 
-                 
-              </div>
+              <?php 
+                 if ($_GET['p'] != 'clases'){              
+              ?>         
+                    <div id="frasecenter">
+    
+                   </div>
+              <?php 
+                 }
+              ?>
             </div>
             <div id="cuerpoder">
             	<div id="cuerpoder_1"></div>
