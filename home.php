@@ -138,7 +138,7 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
 					
 				?>
             	</div>
-            	<img id="precio" src="./img/precio/Precio.png" alt="" >
+            	<img id="precio" src="./img/precio/Precio_3.png" alt="" >
                  
                  <script type="text/javascript" >
                     BlowupObject.init({

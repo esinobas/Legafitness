@@ -94,6 +94,6 @@
 <div style="text-align:center"><img src="img/tu_fitness.jpg" />
 </div>
 <div style="text-align:center;margin-top:15px">
-<img src="img/precio/Precio.png" width="210">
+<img src="img/precio/Precio_3.png" width="210">
 </div>
 
