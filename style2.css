@@ -80,6 +80,7 @@ div{
 	width:575px;
 	height:768px;
 	padding-top:15px;
+	position: relative;
 }
 #cuerpocenter_home{
 	padding:0px;
@@ -332,9 +333,9 @@ p.tp{
 	width: 210px; max 275px;
 	height: 204px;   max 268px;
    /*right:-220px;*/
-   left: 950px;
+   left: 580px;
    /*top:-535px;*/
-   top:130px;
+   top:-50px;
    z-index:100;
 }
 #cuerpoder{
