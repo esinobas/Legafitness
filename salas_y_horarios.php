@@ -1,6 +1,9 @@
 <div id="cuerpocenter_sala_borde_top"></div>
 <div id="cuerpocenter_sala">
 	<script src="./plugins/ImageSlider/ImageSlider.js" type="text/javascript" ></script>
+	<script src="./plugins/Lightbox/Lightbox.js" type="text/javascript" ></script>
+ 
+</script>
    <?php
      include_once('./php/DirectoryFunctions.php'); 
    ?>
@@ -23,7 +26,8 @@
 			<li>Espaciosas área de vestuarios, duchas y taquillas para tu mayor comodidad.</li>
        </ul>
        
-       &nbsp;&nbsp;&nbsp;&nbsp;<a href="img/horarios.pdf" target="_blank"><img src="img/pdf.png" width="32" height="32" align="absmiddle" />Descargar Horarios</a>
+       &nbsp;&nbsp;&nbsp;&nbsp;<a href="img/horarios.pdf" target="_blank">
+       <img src="img/pdf.png" width="32" height="32" align="absmiddle" />Descargar Horarios</a>
        
   </div>
   
@@ -65,8 +69,9 @@
   
   
     <div id="horarios_sala">
-	  <img src="img/sala1.jpg" width="542" height="294" /><br /><br />
-        <img src="img/sala2.jpg" />
+	  <img src="img/sala1.jpg" width="65" height="71" onclick="Lightbox.show({image:'img/sala1.jpg',width: 650, height: 714});"/>
+	  
+     <img src="img/sala2.jpg" width="65" height="71" onclick="Lightbox.show({image:'img/sala2.jpg',width: 635, height: 715});"/>
    		<p><b>*La dirección se reserva el derecho a modificar horarios y clases sin previo aviso</b></p>
    </div>
 </div>
