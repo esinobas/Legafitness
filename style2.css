@@ -123,7 +123,7 @@ div{
 	margin:0px;
 	float:left;
 	width:585px;
-	height:1395px;
+	height:750px;
 	
 	position:relative;
 	background-color:#FFF;
@@ -205,7 +205,7 @@ div{
 #texto_sala{
 	margin:0px;
 	width:340px;
-	height:460px;
+	height:400px;
 	/*overflow:auto;
 	/*left:0px;
 	top:0px;*/
@@ -220,7 +220,7 @@ div{
 #horarios_sala{
 	margin:0px;
 	width:540px;
-	height:1100px;
+	height:500px;
 	left:0px;
 	top:480px;
 	font-size:0.8em;
@@ -546,5 +546,16 @@ margin-left:15px;
 margin-top:40px;
 color:#58585a;
 
+}
+
+#titulo_horarios{
+   font-weight: bold;
+   font-size: 1.8em;
+
+}
+#horarios_sala img{
+
+   padding-right: 15px;
+   padding-left: 5px;
 }
 

@@ -26,8 +26,7 @@
 			<li>Espaciosas área de vestuarios, duchas y taquillas para tu mayor comodidad.</li>
        </ul>
        
-       &nbsp;&nbsp;&nbsp;&nbsp;<a href="img/horarios.pdf" target="_blank">
-       <img src="img/pdf.png" width="32" height="32" align="absmiddle" />Descargar Horarios</a>
+   
        
   </div>
   
@@ -67,12 +66,21 @@
       );
   </script> 
   
-  
-    <div id="horarios_sala">
-	  <img src="img/sala1.jpg" width="65" height="71" onclick="Lightbox.show({image:'img/sala1.jpg',width: 650, height: 714});"/>
+     <div id="horarios_sala">
+     <span id="titulo_horarios">Horarios:</span><br>
+     
+	  Horario Clases Ciclo <a href="javascript:void(0)"><img src="img/sala1.jpg" width="100"  title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala1.jpg',width: 650, height: 714, label:{position:'up',text:'Horario Clases Ciclo'}});"/></a>
 	  
-     <img src="img/sala2.jpg" width="65" height="71" onclick="Lightbox.show({image:'img/sala2.jpg',width: 635, height: 715});"/>
+	  
+    Horario Clases Colectivas <a href="javascript:void(0)"><img src="img/sala2.jpg" width="100" title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala2.jpg',width: 635, height: 715, label:{position:'up',text:'Horario Clases Colectivas'}});"/></a>
+    <br><br>    
+    Pulsar en las imagenes para ampliar los horarios.    
+    <br><br>
+     <a href="img/horarios.pdf" target="_blank">
+       <img src="img/pdf.png" width="32" height="32" align="absmiddle" />Descargar Horarios</a>
+    
    		<p><b>*La dirección se reserva el derecho a modificar horarios y clases sin previo aviso</b></p>
    </div>
+    
 </div>
 <div id="cuerpocenter_sala_borde_bottom"></div>
