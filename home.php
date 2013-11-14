@@ -50,7 +50,7 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
         <div id="centro">
             <div id="cuerpoizq">
             	<div id="cuerpoizq_1">
-                	<img style="cursor:pointer" onclick="popu('Las incripciones desde la web están agotadas, para nuevas inscripciones en el gimnasio.')" border="0" src="img/inscribete.png" /><br /> 
+                	<!--<img style="cursor:pointer" onclick="popu('Las incripciones desde la web están agotadas, para nuevas inscripciones en el gimnasio.')" border="0" src="img/inscribete.png" /><br />--> 
                 	
                 </div>            
                 <div id="cuerpoizq_2">
@@ -155,7 +155,7 @@ class="boton"><?php if(@$_GET['p'] == 'clases'){ ?> <span class="bizq"></span><a
                    );
                  </script>
               <?php 
-                 if ($_GET['p'] != 'clases'){              
+                 if ($_GET['p'] != 'clases' && $_GET['p'] != 'salas'){              
               ?>         
                     <div id="frasecenter">
     

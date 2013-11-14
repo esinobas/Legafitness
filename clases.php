@@ -2,7 +2,7 @@
    <?php
      include_once('./php/DirectoryFunctions.php'); 
    ?>
-<div id="cuerpocenter_clases_borde_top"></div>
+<!--<div id="cuerpocenter_clases_borde_top"></div>-->
 <div id="cuerpocenter_clases">
 	
 	
@@ -90,7 +90,7 @@
         </div>
     
 </div>
-<div id="cuerpocenter_clases_borde_bottom"></div>
+<!--<div id="cuerpocenter_clases_borde_bottom"></div>-->
 <div style="text-align:center"><img src="img/tu_fitness.jpg" />
 </div>
 <div style="text-align:center;margin-top:15px">

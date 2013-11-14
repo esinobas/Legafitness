@@ -1,4 +1,4 @@
-<div id="cuerpocenter_sala_borde_top"></div>
+<!--<div id="cuerpocenter_sala_borde_top"></div>-->
 <div id="cuerpocenter_sala">
 	<script src="./plugins/ImageSlider/ImageSlider.js" type="text/javascript" ></script>
 	<script src="./plugins/Lightbox/Lightbox.js" type="text/javascript" ></script>
@@ -69,10 +69,10 @@
      <div id="horarios_sala">
      <span id="titulo_horarios">Horarios:</span><br>
      
-	  Horario Clases Ciclo <a href="javascript:void(0)"><img src="img/sala1.jpg" width="100"  title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala1.jpg',width: 650, height: 714, label:{position:'up',text:'Horario Clases Ciclo'}});"/></a>
+	  Horario Clases Ciclo <a href="javascript:void(0)"><img src="img/sala1.jpg" width="100"  title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala1.jpg',width: 695, height: 778, label:{position:'up',text:'Horario Clases Ciclo'}});"/></a>
 	  
 	  
-    Horario Clases Colectivas <a href="javascript:void(0)"><img src="img/sala2.jpg" width="100" title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala2.jpg',width: 635, height: 715, label:{position:'up',text:'Horario Clases Colectivas'}});"/></a>
+    Horario Clases Colectivas <a href="javascript:void(0)"><img src="img/sala2.jpg" width="100" title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala2.jpg',width: 694, height: 773, label:{position:'up',text:'Horario Clases Colectivas'}});"/></a>
     <br><br>    
     Pulsar en las imagenes para ampliar los horarios.    
     <br><br>
@@ -83,4 +83,9 @@
    </div>
     
 </div>
-<div id="cuerpocenter_sala_borde_bottom"></div>
+<!--<div id="cuerpocenter_sala_borde_bottom"></div>-->
+<div style="text-align:center"><img src="img/tu_fitness.jpg" />
+</div>
+<div style="text-align:center;margin-top:15px">
+<img src="img/precio/Precio_3.png" width="210">
+</div>

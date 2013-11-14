@@ -167,7 +167,7 @@ div{
 	float:left;
 	width:585px;
 	height:474px;
-	/*background-image:url(img/sala.png);*/
+	background-image:url(img/sala.png);
 	background-repeat:no-repeat;
 	position:relative;
 }
