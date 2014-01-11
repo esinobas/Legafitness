@@ -69,10 +69,10 @@
      <div id="horarios_sala">
      <span id="titulo_horarios">Horarios:</span><br>
      
-	  Horario Clases Ciclo <a href="javascript:void(0)"><img src="img/sala1.jpg" width="100"  title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala1.jpg',width: 695, height: 778, label:{position:'up',text:'Horario Clases Ciclo'}});"/></a>
+	  Horario Clases Ciclo <a href="javascript:void(0)"><img src="img/sala1.jpg" width="100"  title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala1.jpg',width: 727, height: 719, label:{position:'up',text:'Horario Clases Ciclo'}});"/></a>
 	  
 	  
-    Horario Clases Colectivas <a href="javascript:void(0)"><img src="img/sala2.jpg" width="100" title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala2.jpg',width: 694, height: 773, label:{position:'up',text:'Horario Clases Colectivas'}});"/></a>
+    Horario Clases Colectivas <a href="javascript:void(0)"><img src="img/sala2.jpg" width="100" title="Pulsa para ampliar" onclick="Lightbox.show({image:'img/sala2.jpg',width: 732, height: 732, label:{position:'up',text:'Horario Clases Colectivas'}});"/></a>
     <br><br>    
     Pulsar en las imagenes para ampliar los horarios.    
     <br><br>
