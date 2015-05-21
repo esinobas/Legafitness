@@ -168,9 +168,13 @@ var Lightbox = {
         //img close
        var imgClose = $('<img id="img_close" src="./plugins/Lightbox/Close.png" />');
        $('body').append(imgClose);  
-       $('#img_close').css('top',((parseInt(windowHeight)/2)+parseInt(windowScrollTop))-
-                                   (parseInt(heightLightbox)/2)-
-                                   parseInt($('#img_close').css('width')) +'px' ); 
+       var top = ((parseInt(windowHeight)/2)+parseInt(windowScrollTop))-
+       (parseInt(heightLightbox)/2)-parseInt($('#img_close').css('width'));
+       if (top < 0 ){
+          top = 0;
+       }
+       $('#img_close').css('top', + top+'px' ); 
+       //$('#img_close').css('top','0px');
        $('#img_close').css('left', (parseInt(imageWidthM)/2)+
                                     parseInt($('#lightbox').css('left'))+'px');     
                                     

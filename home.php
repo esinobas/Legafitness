@@ -28,6 +28,7 @@ else
 <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 <script src="js/jquery-1.4.2.js" type="text/javascript"></script>
 <script type="text/javascript" src="./plugins/BlowupObject/BlowupObject.js"></script>
+<script src="./plugins/Lightbox/Lightbox.js" type="text/javascript" ></script>
 <script>
 function popu(txt)
 {
@@ -38,6 +39,11 @@ function popu(txt)
 </head>
 
 <body>
+
+<script>
+   Lightbox.show({image:'img/BikeControl.jpg',width: 465, height: 620});
+</script>
+
 <div id="content">
 	<div id="cuerpo">	
     	<div id="cabecera">
