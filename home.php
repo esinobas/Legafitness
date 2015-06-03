@@ -15,12 +15,12 @@
 <?php
 if($_GET['p'] == 'clases' || $_GET['p'] == 'salas')
 {
-	echo '<link href="style2.css" rel="stylesheet" type="text/css" />
+	echo '<link href="./style2.css" rel="stylesheet" type="text/css" />
 ';	
 }
 else
 {
-	 echo '<link href="style.css" rel="stylesheet" type="text/css" />
+	 echo '<link href="./style.css" rel="stylesheet" type="text/css" />
 ';
 }
 ?>
@@ -39,10 +39,6 @@ function popu(txt)
 </head>
 
 <body>
-
-<script>
-   Lightbox.show({image:'img/BikeControl.jpg',width: 465, height: 620});
-</script>
 
 <div id="content">
 	<div id="cuerpo">	
