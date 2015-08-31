@@ -1,6 +1,6 @@
  #shadow{
  
-   opacity: 0.75;
+   opacity: .75;
    background-color: white;
    position: absolute;
    left: 0px;
@@ -45,6 +45,6 @@
    left: 0;
    z-index: 10000;
    width: 30px;
-   
+   height: 30px;
      
  }

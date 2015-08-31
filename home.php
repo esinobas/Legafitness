@@ -28,6 +28,7 @@ else
 <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 <script src="js/jquery-1.4.2.js" type="text/javascript"></script>
 <script type="text/javascript" src="./plugins/BlowupObject/BlowupObject.js"></script>
+<script type="text/javascript" src="./plugins/JSLogger/JSLogger.js"></script>
 <script src="./plugins/Lightbox/Lightbox.js" type="text/javascript" ></script>
 <script>
 function popu(txt)
