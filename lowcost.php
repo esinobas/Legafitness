@@ -28,10 +28,10 @@
    <div id="texto_lowcost">
    <span class="titulo">CONCEPTO <b>LOW COST</b></span>
       <p class="tp">
-        No tienes excusa para no estar en forma y pasarlo fenomenal. Todo, pero todo el gimnasio destinado para ti, por sólo 25&euro;/mes. <b>Y ese es el precio final. </b>
+        No tienes excusa para no estar en forma y pasarlo fenomenal. Todo, pero todo el gimnasio destinado para ti, por sólo 26&euro;/mes. <b>Y ese es el precio final. </b>
         </p>
         <p class="tp">
-        Así es la filosofía low cost que hemos querido ofrecerte para que todo Leganés disfrute de un mundo de ejercicios, máquinas de última generación, clases colectivas y asesores de fitness, sólo para ti. <b>Sólo por 25&euro;/mes.</b>
+        Así es la filosofía low cost que hemos querido ofrecerte para que todo Leganés disfrute de un mundo de ejercicios, máquinas de última generación, clases colectivas y asesores de fitness, sólo para ti. <b>Sólo por 26&euro;/mes.</b>
         </p>
    	
     </div>
